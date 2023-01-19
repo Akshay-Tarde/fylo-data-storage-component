@@ -21,6 +21,19 @@ body {
     color: hsl(243, 100%, 93%);
 }
 
+.accent {
+    font-weight: 700;
+}
+
+.dark-accent {
+    color: black;
+    font-size: 2em;
+}
+
+.light-accent {
+    color: hsl(243, 100%, 93%);
+}
+
 /* LAYOUT */
 .container,
 footer {
