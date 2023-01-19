@@ -124,3 +124,21 @@ label {
 .right-label {
     margin-left: auto;
 }
+
+/* MEDIA QUERIES */
+
+@media (min-width: 800px) {
+
+    body {
+        background-image: url(./images/bg-desktop.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-color: hsl(229, 57%, 11%);
+
+    }
+
+
+    .container {
+        display: flex;
+    }
+}
