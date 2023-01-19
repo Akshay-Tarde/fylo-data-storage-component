@@ -77,6 +77,7 @@ footer {
 .storage {
     padding: 1em 2em 4em;
     position: relative;
+    display: grid;
 }
 
 .data-remaining {
@@ -88,4 +89,22 @@ footer {
     position: absolute;
     top: 60%;
     left: 20%;
+}
+
+
+.slider-container {
+    display: grid;
+}
+
+.slider {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+label {
+    grid-row: 2 / span 1;
+}
+
+.right-label {
+    margin-left: auto;
 }
