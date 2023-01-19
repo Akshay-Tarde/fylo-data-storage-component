@@ -91,7 +91,7 @@ footer {
     left: 20%;
 }
 
-
+/* Slider */
 .slider-container {
     display: grid;
 }
@@ -99,6 +99,22 @@ footer {
 .slider {
     grid-row: 1;
     grid-column: 1 / span 2;
+    margin-bottom: 1em;
+    appearance: none;
+    border-radius: 10px;
+    height: 15px;
+    background-color: hsl(229, 57%, 11%);
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: #04AA6D;
+    cursor: pointer;
 }
 
 label {
