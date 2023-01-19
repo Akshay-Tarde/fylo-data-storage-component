@@ -15,7 +15,7 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Pale Blue: hsl(243, 100%, 93%)
+- Pale Blue: hsl(243, 100%, 93%)  for font in the slider section
 - Grayish Blue: hsl(229, 7%, 55%)
 - Dark Blue: hsl(228, 56%, 26%)
 - Very Dark Blue: hsl(229, 57%, 11%)
