@@ -129,9 +129,19 @@ label {
 
 .attribution {
     color: white;
+    font-weight: 700;
 }
 
+a {
+    color: white;
+    margin-left: 1em;
+    text-decoration: none;
+}
 
+a:focus,
+a:hover {
+    color: black;
+}
 
 
 
