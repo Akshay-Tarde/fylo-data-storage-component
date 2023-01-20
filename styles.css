@@ -125,6 +125,16 @@ label {
     margin-left: auto;
 }
 
+/* FOOTER */
+
+.attribution {
+    color: white;
+}
+
+
+
+
+
 /* MEDIA QUERIES */
 
 @media (min-width: 800px) {
@@ -140,5 +150,10 @@ label {
 
     .container {
         display: flex;
+    }
+
+    .attribution {
+        margin: 4em auto;
+        justify-content: center;
     }
 }
