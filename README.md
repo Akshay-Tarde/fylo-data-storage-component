@@ -36,7 +36,7 @@ Mobile Layout
 ### Links
 
 - Solution URL: [Frontend Mentor](https://www.frontendmentor.io/solutions/fylo-data-storage-component-fsvC0xYMsu)
-- Live Site URL: [Add live site URL here](https://fylo-data-storage-component-amt.netlify.app/)
+- Live Site URL: [Netlify URL](https://fylo-data-storage-component-amt.netlify.app/)
 
 ## My process
 I styled the components with flexbox and grid. 
