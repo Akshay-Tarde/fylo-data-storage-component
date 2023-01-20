@@ -96,8 +96,12 @@ footer {
     display: grid;
 }
 
-.slider {
+.data-used {
     grid-row: 1;
+}
+
+.slider {
+    grid-row: 2;
     grid-column: 1 / span 2;
     margin-bottom: 1em;
     appearance: none;
@@ -118,11 +122,12 @@ footer {
 }
 
 label {
-    grid-row: 2 / span 1;
+    grid-row: 3 / span 1;
 }
 
 .right-label {
-    margin-left: auto;
+    justify-self: end;
+    /* margin-left: auto; */
 }
 
 /* FOOTER */
@@ -132,6 +137,7 @@ label {
     font-weight: 700;
     display: flex;
     text-align: center;
+    flex-direction: column;
     margin-top: 2em;
 }
 
@@ -142,7 +148,6 @@ label {
 
 a {
     color: white;
-    text-decoration: none;
 }
 
 a:focus,
@@ -167,21 +172,23 @@ a:hover {
     .container {
         display: flex;
         flex-direction: row;
+        align-items: flex-end;
     }
 
     .storage {
-        padding: 2em 2em 1em;
-        min-width: 500px;
+        padding: 3em 2em 0;
+        min-width: 600px;
+        grid-template-rows: repeat(4, 30px);
+        height: 100%;
     }
 
     .storage>p {
         margin: 0;
-        align-self: start;
     }
 
     .data-remaining {
-        top: -30%;
-        left: 40%;
+        top: -40%;
+        left: 60%;
     }
 
     /* FOOTER */
