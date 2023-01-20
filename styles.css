@@ -46,15 +46,15 @@ footer {
 }
 
 .container {
-    display: grid;
-    grid-row-gap: 1em;
+    display: flex;
+    flex-direction: column;
 }
 
 .fylo,
 .storage {
     border-radius: 10px;
     background-color: hsl(228, 56%, 26%);
-    margin: 0 auto;
+    margin: 1em auto;
     min-width: 350px;
 }
 
@@ -130,11 +130,18 @@ label {
 .attribution {
     color: white;
     font-weight: 700;
+    display: flex;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.attribution>p {
+    margin: 0;
+    margin-top: 1em;
 }
 
 a {
     color: white;
-    margin-left: 1em;
     text-decoration: none;
 }
 
@@ -157,11 +164,27 @@ a:hover {
 
     }
 
-
     .container {
         display: flex;
+        flex-direction: row;
     }
 
+    .storage {
+        padding: 2em 2em 1em;
+        min-width: 500px;
+    }
+
+    .storage>p {
+        margin: 0;
+        align-self: start;
+    }
+
+    .data-remaining {
+        top: -30%;
+        left: 40%;
+    }
+
+    /* FOOTER */
     .attribution {
         margin: 4em auto;
         justify-content: center;
